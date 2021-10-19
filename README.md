@@ -33,3 +33,7 @@ The following Python libraries are required to run the code:
 1. Math
 2. Random
 3. Mathplotlib
+
+## Reference
+Basic notions about the code are contained in the following reference:
+1.[Guardiola1998_Chapter_MonteCarloMethodsInQuantumMany_original.pdf](https://github.com/MattiaDamiaPaciarini/Helium-ground-state-energy/files/7231046/Guardiola1998_Chapter_MonteCarloMethodsInQuantumMany_original.pdf).
