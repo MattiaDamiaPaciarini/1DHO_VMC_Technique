@@ -1,7 +1,7 @@
 # 1DHO_VMC_Technique
 The code has been typed in order to take a bit of confidence with VMC technique. It consists on two different approaches to the solution of the same problem.
 In particular, the system taken into account is a 1-D harmonic oscillator in quantum mechanics with a particular potential and the aim of the code is to find its ground state energy with the VMC technique.
-## Standard Approach
+## Standard Approach - 
 The energy expectation value can be written as follows:
 
 <img src="https://latex.codecogs.com/svg.image?<E(\alpha)>&space;=&space;\frac{&space;\int&space;|\psi(x,\alpha)|^2&space;E_{loc}(x,\alpha)\,dx}{\int|\psi(x,\alpha)|^2&space;\,dx}" title="<E(\alpha)> = \frac{ \int |\psi(x,\alpha)|^2 E_{loc}(x,\alpha)\,dx}{\int|\psi(x,\alpha)|^2 \,dx}" />
