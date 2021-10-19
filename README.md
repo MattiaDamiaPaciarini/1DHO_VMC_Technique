@@ -15,3 +15,11 @@ The computational results are compatible with the theoretical ones of <img src="
 
 
 ![1DHO](https://user-images.githubusercontent.com/91092038/137964992-aef82f3d-cb51-4a9b-975a-88f09b5e349c.png)
+
+## Correlated Sampling Approach 
+The second approach follows directly from the Correlated Sampling method. Through this technique, it is possible to sample the positions with only one fixed pdf computed around the minimum of <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" /> and to obtain a smoother behaviour of the energy. 
+In particular:
+
+<img src="https://latex.codecogs.com/svg.image?E(\alpha)&space;&space;=&space;\frac{\int&space;|\psi(x,\beta)|^2&space;\frac{|\psi(x,\alpha)|^2}{|\psi(x,\beta)|^2}&space;E_{loc}(x,\alpha)&space;\,dx}{\int&space;|\psi(x,\beta)|^2&space;\frac{|\psi(x,\alpha)|^2}{|\psi(x,\beta)|^2}&space;\,dx}&space;&space;" title="E(\alpha) = \frac{\int |\psi(x,\beta)|^2 \frac{|\psi(x,\alpha)|^2}{|\psi(x,\beta)|^2} E_{loc}(x,\alpha) \,dx}{\int |\psi(x,\beta)|^2 \frac{|\psi(x,\alpha)|^2}{|\psi(x,\beta)|^2} \,dx} " />
+
+The resulting simulation offers an easier understanding of the energy behaviour
