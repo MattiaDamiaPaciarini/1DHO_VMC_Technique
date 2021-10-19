@@ -1,7 +1,7 @@
 # 1DHO_VMC_Technique
 The code has been typed in order to take a bit of confidence with VMC technique. It consists on two different approaches to the solution of the same problem.
 In particular, the system taken into account is a 1-D harmonic oscillator in quantum mechanics with a particular potential and the aim of the code is to find its ground state energy with the VMC technique.
-## Standard Approach - 
+## Standard Approach - 1DHO.py
 The energy expectation value can be written as follows:
 
 <img src="https://latex.codecogs.com/svg.image?<E(\alpha)>&space;=&space;\frac{&space;\int&space;|\psi(x,\alpha)|^2&space;E_{loc}(x,\alpha)\,dx}{\int|\psi(x,\alpha)|^2&space;\,dx}" title="<E(\alpha)> = \frac{ \int |\psi(x,\alpha)|^2 E_{loc}(x,\alpha)\,dx}{\int|\psi(x,\alpha)|^2 \,dx}" />
@@ -16,7 +16,7 @@ The computational results are compatible with the theoretical ones of <img src="
 ![1DHO](https://user-images.githubusercontent.com/91092038/137986940-73654c9a-81b7-45c4-b3a1-4a07edc81905.png)
 
 
-## Correlated Sampling Approach 
+## Correlated Sampling Approach - 1DHO_CS.py
 The second approach follows directly from the Correlated Sampling method. Through this technique, it is possible to sample the positions with only one fixed pdf computed around the minimum of <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" /> and to obtain a smoother behaviour of the energy. 
 In particular:
 
