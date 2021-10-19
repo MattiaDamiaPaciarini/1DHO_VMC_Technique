@@ -26,6 +26,10 @@ ta)|^2} \,dx} " />
 The resulting simulation offers an easier understanding of the energy behaviour
 
 
-
 ![1DHO_CS](https://user-images.githubusercontent.com/91092038/137986842-93c44f6b-2248-4654-9c93-a0aeaaf7c42b.png)
 
+## Python Libraries
+The following Python libraries are required to run the code:
+1. Math
+2. Random
+3. Mathplotlib
