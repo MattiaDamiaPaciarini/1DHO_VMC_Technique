@@ -12,10 +12,14 @@ list_Y = []
 list_X = []
 list_Err = []
 
-while (i<NM):
+# Collecting the positions
+
+while (i<NM): 
     x = random.gauss(0,1)/math.sqrt(2)/beta
     list_x.append(x)
     i = i+1
+
+# Energy Computation
 
 for j in range(800, 1700, 15):
   E = 0
@@ -31,6 +35,7 @@ for j in range(800, 1700, 15):
   list_X.append(j/1000)
   list_Err.append(math.sqrt((SE/NM)-(E/NM)**2)/NM)
 
+# Plotting the results
 
 plt.errorbar(list_X, list_Y, yerr = list_Err, fmt='o', color= 'black')
 plt.xlabel('alpha')
